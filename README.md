@@ -32,5 +32,5 @@ Se eligió esta paleta de colores buscando ir con tonalidades oscuras con ***ace
 
 El logo representa el nombre de la empresa, con adorno de estilo minimalista y geométrico.
 
-![ScreenShot](Onirico.png)
+![ScreenShot](Onirico1.png)
 
