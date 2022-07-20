@@ -34,3 +34,8 @@ El logo representa el nombre de la empresa, con adorno de estilo minimalista y g
 
 ![ScreenShot](Onirico1.png)
 
+#### Diseño FIGMA
+
+En el siguiente link se encuentra el diseño en FIGMA con diferentes wireframes para fuente, componentes, mobile (Home, Detail product, Login, Register, Carrito) y Desktop (Home, Detail product y Carrito).
+
+https://www.figma.com/file/YMansilQnPn66n5YarDT6u/BOCETOS-PARA-ECOMMERCE-(Copy)?node-id=3%3A362
