@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+:root{
+    --primary: #1B2430;
+    --secondary: #F5F5F5;
+}
+
+
+
+header{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 15vh;
+    height: 70px;
+    background-color: #1B2430;
+    align-items: center;
+    text-decoration: none;
+    
+}
+header img{
+    width: 100px;
+    height: 90%;
+    border-radius: 100%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+header nav ul li{
+    padding: 10px;
+    text-decoration: none;
+}
+.VBar{
+    width: 5vw; 
+    height:100px; 
+    background-color: #F5F5F5; 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 500px;
+    margin-bottom: 200px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.banner p{
+    font-size: 25px;
+    width: 75vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.banner img{
+    object-fit: cover;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+}
+
+
+body{
+    background-image: linear-gradient(#1B2430 50%, #F5F5F5);
+    text-align: center;
+}
+
+.products h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.services article{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: 20px;
+    background-color: #1B2430;
+    border-radius: 20px;
+    border-color: black;
+    border-style: groove;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+}
+.services article img{
+    border-radius: 20px;
+}
+.services article div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+button{
+    width: 70px;
+    height: 30px;
+    color:#1B2430;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+}
+button:active{
+    width: 68px;
+    height: 29px;
+}
+button img{
+    height: 25px;
+    width: 60px;
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 100px;
+    max-width: 100%;
+    align-items: center;
+    text-shadow: 3px 3px 2px #1B2430;
+
+}
+
+.nosotros article{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+    border-radius: 20px;
+    width: 50%;
+    border-color: black;
+    border-style: groove;
+}
+
+.nosotros img{
+    width: 400px;
+    height: 300px;
+    
+}
+.nosotros h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.nosotros p{
+    font-size: 30px;
+}
+
+
+
+footer{
+    height: 30vh;
+    background-color: linear-gradient(#F5F5F5 30%, #ad3916);
+    background-image: url("src/imgFooter-sinFondoDOBLE.png");
+    background-repeat:round;
+    background-size:contain;
+    background-position-y: bottom;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100vw;
+    max-width: 100vw;
+}
+.despedida{
+    color: #1B2430;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #1B2430;
+}
+
+footer img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer div ul{
+    list-style: none;
+    width: 33%;
+    font-size: 30px;
+}
+footer div ul li{
+    color: #1B2430;
+    font-weight:900;
+    margin-bottom: 20px;
+}
+footer div p{
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    color: #1B2430;
+    text-shadow: 1px 1px 1px #1B2430;
+
+}
+.redes{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #1B2430;
+    text-shadow: 1px 1px 1px #1B2430;
+}
+
+
+/* DETALLES DETAIL-PRODUCT*/
+
+#detailBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#detailBody header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 62.8vw;    
+    max-height: 15vh;
+    height: 70px;
+    background-color: #1B2430;
+}
+
+
+#detailProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    gap: 50px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+#detailProduct h2{
+    font-size: 50px;
+}
+
+#detailProduct img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+#botoneraProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200px;
+
+}
+#botoneraProduct button{
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+#botoneraProduct button img{
+    object-fit: contain;
+    width: 80px;
+    height: 30px;
+}
